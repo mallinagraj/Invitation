@@ -1,6 +1,6 @@
 
 /**
- * @author Untoldcoding <vishaltewatiawork@gmail.com>
+ * @author Untoldcoding <vishaltewatiawork@gmail.com
  */
 (function ($) {
   "use strict";
@@ -25,7 +25,7 @@ function pauseAudio() {
   event.stopPropagation();
 }
 
-var countDownDate = new Date("Feb 14, 2024 00:00:00").getTime();
+var countDownDate = new Date("Dec 20, 2024 00:00:00").getTime();
 
 var x = setInterval(function () {
   var now = new Date().getTime();
@@ -91,4 +91,4 @@ var styles2 = [
   "font-size: 32px",
 ].join(";");
 
-console.log("\n\n%c SAVE THE DATE: 14th Feb, 2021", styles);
+console.log("\n\n%c SAVE THE DATE: 20th Dec, 2024", styles);
